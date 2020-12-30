@@ -21,6 +21,6 @@ jobs:
       run: |
         echo $USER
         echo $PASS
-        docker build . --file Dockerfile --tag AkhiD4/nightry
+        docker build . --file Dockerfile --tag akhileshd4/nightry
         docker login -u $USER -p $PASS
-        docker push AkhiD4/nightry
+        docker push akhileshd4/nightry
